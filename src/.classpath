@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="org/" kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="org"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/classes12.jar"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/db2xml.jar"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/jdbc-ldap.jar"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/ldap.jar"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/mysql-connector-java-3.0.10-stable-bin.jar"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/mysql-connector-java-3.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/OLITE40.JAR"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/poi-3.0-rc4-20070503.jar"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/fileutil.jar"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/spring.jar"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/junit-4.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_02"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
+	<classpathentry kind="lib" path="C:/digital/case/base/DBUtil/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

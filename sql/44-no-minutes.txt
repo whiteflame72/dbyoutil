@@ -1,0 +1,1 @@
+select title, length from movies where length not like '%min%' and length not like '%/%' order by title

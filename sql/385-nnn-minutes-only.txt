@@ -1,0 +1,1 @@
+select country, title, length from movies where (trim(length) like '%min' or trim(length) like '%minute' or trim(length) like '%minutes') and trim(length) not like '%/%' order by title

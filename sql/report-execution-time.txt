@@ -1,0 +1,1 @@
+SELECT object_name, round(avg(duration)/(60*1000),1) as dura FROM INF_ACTIVITY_LOG group by object_name order by dura desc

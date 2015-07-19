@@ -1,0 +1,4 @@
+select count(*) as total_movies from movies
+/
+select custom3, genre, director as Directors_and_Actors, title, year, catalogno, rating, moviefile1, length, upc, custom11 from movies where (moviefile1 = '' or year = '' or catalogno = '' or rating = '' or length = '' or upc = '' or actors = '' or director = '' or genre = '' or custom11 = '' or custom3 = '' or weblinkscript = '')
+/

@@ -1,0 +1,1 @@
+rldap74 "select * from cn=%1,cn=Users" 11

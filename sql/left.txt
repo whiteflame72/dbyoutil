@@ -1,0 +1,16 @@
+--387
+select left(title, instr(title,'- DVDW')-2) from movies where title like '%- DVDW%'
+/
+--167
+select left(title, instr(title,'- CDISK')-2) from movies where title like '%- CDISK%'
+--407
+select left(title, instr(title,'- N/A')-2) from movies where title like '%- N/A%'
+/
+--update movies set title = left(title, instr(title,'- DVDW')-2) where title like '%- DVDW%'
+/
+select left(length, instr(length,'min')-2) from movies where length like '%min%'
+/
+update movies set length = trim(left(length, instr(length,'min')-2)) where length like '%min%'
+/
+update movies set length = trim(length)
+/

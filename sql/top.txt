@@ -1,0 +1,1 @@
+select rating, title, weblinkscript from movies where rating <> '' and rating <> 'N/A' order by cint(rating) desc

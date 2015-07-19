@@ -1,0 +1,4 @@
+select count(*) as total_movies from movies
+/
+select movieid, title, iif(genre='', '**NO GENRE**')&'|'&iif(director='', '***NO DIRECTOR***')&'|'&iif(actors='','***NO ACTORS***')&'|'&iif(isnull(year), '***NO YEAR***')&'|'&iif(isnull(rating), '***NO RATING***')&'|'&iif(isnull(length), '***NO LENGTH***')&'|'&iif(upc='', '***NO UPC***')&'|'&iif(studio='', '***NO STUDIO***')&'|'&iif(country='', '***NO COUNTRY***')&'|'&iif(dateinsert=0, '***NO DATEINSERT***')&'|'&iif(len(length) >= 4, '***INVALID LENGTH***')&iif(custom3='', '***DVD NOT STORED***','|')&'|'&iif(custom4='', '***DVD NOT IN CHANGER***','|') from movies where custom3 = '' or (custom3='' and custom4='')
+/

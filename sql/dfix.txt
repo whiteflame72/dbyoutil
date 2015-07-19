@@ -1,0 +1,8 @@
+D:\pc\ConfigAnalyzer\sql\13-country-minutes-only.txt
+/
+D:\pc\ConfigAnalyzer\sql\44-no-minutes.txt
+/
+D:\pc\ConfigAnalyzer\sql\56-multiple-minutes.txt
+/
+D:\pc\ConfigAnalyzer\sql\385-nnn-minutes-only.txt
+/

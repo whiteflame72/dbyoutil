@@ -1,0 +1,6 @@
+/* Album with Review */ SELECT NAME, review FROM album_tmp WHERE DBMS_LOB.getlength(review) > 0
+/
+/* Artist with Bio */ SELECT NAME, bio FROM name_tmp WHERE DBMS_LOB.getlength(bio) > 0
+/
+--SELECT NAME FROM release_tmp WHERE ROWNUM < 6
+--SELECT p_id FROM NAMEASSC_tmp WHERE ROWNUM < 6

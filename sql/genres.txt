@@ -1,0 +1,6 @@
+select genre, count(*) as a from movies group by genre order by count(*) desc
+/
+select subgenre, count(*) as a from movies group by subgenre order by count(*) desc
+/
+select genre, dateinsert, title from movies group by genre, dateinsert, title order by genre, cdate(dateinsert), title
+/

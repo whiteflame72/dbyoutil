@@ -1,0 +1,2 @@
+select * from cn=asnow,cn=Users
+/

@@ -1,0 +1,1 @@
+ldapdelete -c -h 38.118.10.181 -p 389 -D "cn=orcladmin" -w "changeme1" -f deleteEntry.ldif

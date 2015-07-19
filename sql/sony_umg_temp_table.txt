@@ -1,0 +1,8 @@
+SELECT count(*) "UMG Temp Count" FROM CM_PP_UMG_TRACK_TB
+/
+SELECT count(*) "Sony Temp Count" FROM CM_PP_SONY_TRACK_TB
+/
+SELECT track_title "UMG Track",TRACK_ARTIST_NM "UMG Artist" FROM CM_PP_UMG_TRACK_TB
+/
+SELECT track_title "Sony Track",TRACK_ARTIST_NM "Sony Artist" FROM CM_PP_SONY_TRACK_TB
+/

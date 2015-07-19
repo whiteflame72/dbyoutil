@@ -1,0 +1,1 @@
+select country, title, length from movies where trim(length) like '%/%' or trim(length) like '%(%)%' order by title

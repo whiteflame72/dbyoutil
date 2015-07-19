@@ -1,0 +1,26 @@
+dn: cn=admin,cn=users,o=dhs,c=us
+o: dhs
+objectclass: casPerson
+uid: admin
+userpassword: wzur2386vy
+givenname: Admin Given Name
+cn: admin
+sn: Admin Last Name
+cn: Admin First Name
+mail: sdhskdhshd
+ou: fams
+ssn: 904282
+departmentNumber: 322X0
+employeeType: G
+receiveEmailFlag: N
+adminFlag: N
+middleInitial: R
+receiveCIMSEmailFlag: Y
+identNo: 904282
+enabledUserFlag: Y
+synchronizeFlag: N
+genericUser: Y
+fpdsFlag: Y
+agencyCode: 7006
+passwordChangeRequired: N
+userStatus: F

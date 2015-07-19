@@ -1,0 +1,1 @@
+rfpdsdev_informatica50.cmd D:\digital\case\base\DBUtil\sql\report-execution-time.txt 11

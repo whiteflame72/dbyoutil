@@ -1,0 +1,13 @@
+!SESSION 2006-10-19 20:46:10.220 -----------------------------------------------
+eclipse.buildId=M20050929-0840
+java.version=1.5.0_06
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -Xmx1024M -XX:MaxPermSize=128M
+Command-line arguments:  -data E:\digital\case\base\DBUtil -os win32 -ws win32 -arch x86 -clean -Xmx1024M -XX:MaxPermSize=128M
+
+!ENTRY org.eclipse.update.configurator 2006-10-19 20:46:13.44
+!MESSAGE Plugin does not have a valid identifier: plugins/org.eclipse.emf.source_2.1.0/
+
+!ENTRY org.eclipse.update.configurator 2006-10-19 20:46:13.44
+!MESSAGE Plugin does not have a valid version: plugins/org.eclipse.emf.source_2.1.0/

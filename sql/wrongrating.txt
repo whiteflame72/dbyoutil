@@ -1,0 +1,4 @@
+select count(*) as total_movies from movies
+/
+select title from movies where rating = 'N\/A'
+/

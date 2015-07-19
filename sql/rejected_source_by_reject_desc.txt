@@ -1,0 +1,2 @@
+select distinct REJECT_DESC, count(*) from cm_source_tb where status_cd='LC000040' group by REJECT_DESC
+/

@@ -1,0 +1,13 @@
+select count(*) as one_hour_or_less from movies where cint(length)<=60
+/
+select count(*) as one_or_two_hour from movies where cint(length)>60 and cint(length)<=120
+/
+select count(*) as two_to_three_hour from movies where cint(length)>120 and cint(length)<=180 
+/
+select count(*) as more_than_three_hr from movies where cint(length)>180
+/
+select sum(lcount) as total_count from (select count(*) as lcount from movies where cint(length)<=60 union select count(*) from movies where cint(length)>60 and cint(length)<=120 union select count(*) from movies where cint(length)>120 and cint(length)<=180 union select count(*) from movies where cint(length)>180)
+/
+select count(*) as real_count from movies
+/
+

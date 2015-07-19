@@ -1,0 +1,2 @@
+:rldap %1 389 "cn=orcladmin" oracl3 "select cn from cn=users,o=dhs,c=us where cn=orcladmin" 11
+rldap %1 389 "cn=admin,cn=users,o=dhs,c=us" wzur2386vy "select cn from cn=users,o=dhs,c=us where cn=orcladmin" 11

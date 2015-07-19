@@ -1,0 +1,4 @@
+select sum("Shop") "Total Products Available" from (select b.bp_nm "Label Name", a.cnt "Shop" from (select label_id, count(*) cnt from pm_prod_sng_master_tb where status_cd = 'LC000030' group by label_id) a, bpm_bp_tb b where a.label_id = b.bp_id)
+/
+select b.bp_nm "Label Name", DTL_NM "Status", a.cnt "Shop" from (select label_id, b.DTL_NM, count(*) cnt from pm_prod_sng_master_tb a, CC_DTL_TB b where a.status_cd = b.FULL_CC_CD group by label_id, b.DTL_NM) a, bpm_bp_tb b where a.label_id = b.bp_id
+/

@@ -1,0 +1,2 @@
+select custom4, title from movies where custom4 <> '' order by cint(custom4)
+/
