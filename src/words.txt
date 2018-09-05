@@ -1,0 +1,1 @@
+SELECT A.prod_id, A.similarity  FROM (          SELECT prod_id, similarity     FROM          sp_similarity_tb      WHERE r_prod_id = :1          ORDER BY similarity DESC   ) A,          PM_PROD_SNG_MASTER_TB B  WHERE A.prod_id =          B.PROD_ID    and B.STATUS_CD =          :"SYS_B_0"

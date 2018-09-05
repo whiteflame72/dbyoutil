@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="org/" kind="src" path=""/>
+	<classpathentry kind="lib" path="../lib/parser/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="org"/>
+	<classpathentry kind="lib" path="../lib/jdbc/classes12.jar"/>
+	<classpathentry kind="lib" path="../lib/db2xml.jar"/>
+	<classpathentry kind="lib" path="../lib/jdbc/jdbc-ldap.jar"/>
+	<classpathentry kind="lib" path="../lib/jdbc/ldap.jar"/>
+	<classpathentry kind="lib" path="../lib/jdbc/Access_JDBC30.jar"/>
+	<classpathentry kind="lib" path="../lib/jdbc/OLITE40.JAR"/>
+	<classpathentry kind="lib" path="../lib/excel/poi-3.0-rc4-20070503.jar"/>
+	<classpathentry kind="lib" path="../lib/fileutil.jar"/>
+	<classpathentry kind="lib" path="../lib/spring/spring.jar"/>
+	<classpathentry kind="lib" path="../lib/junit/junit-4.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
+	<classpathentry kind="lib" path="../lib/jakarta-commons/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
