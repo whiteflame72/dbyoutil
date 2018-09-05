@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Features
 --------
 
@@ -57,3 +58,6 @@ Workaround is like to replace it with '*' e.g. select * from dual.
 Source
 ------
 https://github.com/whiteflame72/dbyoutil
+=======
+# dbyoutil 
+>>>>>>> 4a1424734ab9d2c501053ee8d601e3cda32364c7
